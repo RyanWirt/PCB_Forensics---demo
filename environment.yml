@@ -1,0 +1,27 @@
+name: pcb-forensics-tool
+
+channels:
+    - pytorch
+    - plotly
+
+dependencies:
+    - python>=3.7.0
+    - pip>=19.0
+    - jupyter
+    - scikit-learn
+    - scipy
+    - pandas
+    - matplotlib
+    - opencv
+    - seaborn
+    - torchaudio
+    - torchvision
+    - pytorch
+    - plotly
+    - pip:
+        - dvc
+        - dvc-azure
+
+
+        
+        
